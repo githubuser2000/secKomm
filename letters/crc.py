@@ -39,6 +39,11 @@ def main():
             # Anzeige auf 37 Zeichen kürzen für die Tabelle, falls nötig
             display_str = (s[:37] + '..') if len(s) > 37 else s
             print(f"{display_str:<40} | {len(s):<5} | {hex(crc_val)}")
+        hexlist=[]
+        for s in final_substrings:
+            hexlist+=[str(zlib.crc32(s.encode('utf-8')))]
+        hexesStr=",".join(hexlist)
+        print("./batch_xor.py  "+hexesStr+"  password")
 
     except FileNotFoundError:
         print(f"Fehler: Datei '{file_path}' nicht gefunden.")
