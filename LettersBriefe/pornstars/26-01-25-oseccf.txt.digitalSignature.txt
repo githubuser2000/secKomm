@@ -1,0 +1,7 @@
+Original Hash            | XOR-Ergebnis (Hex)                               ---------------------------------------------
+0x4eb8a7f1               | 5b0d570d07560a420559                             0xe8f303bb               | 5b0d0650035d5b46010a
+0xdc96f798               | 5b0d070b5c580d425a50
+0x7741219f               | 5b0d545f515f59445a0e
+0x7035ff9e               | 5b0d5458565b0d135a0d
+0x3dde7ae8               | 5b0d500c010b5c140650
+0xef15ab63               | 5b0d060e545b0a17555b
