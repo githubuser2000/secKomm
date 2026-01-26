@@ -1,0 +1,19 @@
+python ../../LettersBriefe/crc.py 26-01-27-dft.txt                     ─╯ Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+TheDie RelationshipBeziehung WeWir Ha..  | 80    | 0xb1e84ab5
+hipFreundschaft AndUnd BecauseWeil Fr..  | 80    | 0x5ac3c9c8
+er ThanAls LoveLiebes RelationshipBez..  | 80    | 0x46afa70
+as KeepsBleibt EvenAuch IfWenn HeartH..  | 53    | 0x8b52bba8
+WeWir AreWerden SeeingSehen HowWie Th..  | 77    | 0x5678f90
+In MyMeiner PastVergangenheit NotNich..  | 38    | 0x20f1a30e
+ButAber_I_Ich_AmBin_A_Eine_DifferentA..  | 76    | 0xc2fd437c
+./batch_xor.py 2984790709,1522780616,74119792,2337455016,90673040,552706830,3271377788  password
+
+python ../batch_xor.py 2984790709,1522780616,74119792,2337455016,90673040,552706830,3271377788 watch Matrix 1 one he knew my standard simple password and it was about eating a cookie the term for browsers because of ... Schaut Matrix 1 Er kannte mein Standard einfaches Passwort und das war etwas über Kekse Cookies essen den Begriff für Browser wegen ... 
+Original Hash            | XOR-Ergebnis (Hex)                               ---------------------------------------------
+2984790709               | 594c5b5c52575b425351                             1522780616               | 5a40515a52565b43525e
+74119792                 | 5c4152595c595247
+2337455016               | 5946505f515b5e45525e
+90673040                 | 5245555f565e5f45
+552706830                | 5e40515f5558534653
+3271377788               | 5847545956595c425b50
