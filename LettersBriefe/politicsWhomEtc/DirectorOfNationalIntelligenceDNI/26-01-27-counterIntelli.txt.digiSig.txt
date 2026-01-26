@@ -1,0 +1,14 @@
+❯ python ../../crc.py 26-01-27-counterIntelli.txt                        ─╯
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+CounterEntgegnenSecretGeheimOrganizat..  | 80    | 0x3a8053e7
+HauptsächlichObservationBeobachtungOf..  | 80    | 0xb76e6228
+enFattFettenRoughGrobschlächtigenEvil..  | 80    | 0xd9fe1c65
+eutetMoreMehrExpensiveTeuerMoneyGeld     | 36    | 0xbd500840
+./batch_xor.py  981488615,3077464616,3657309285,3176138816  password
+riginal Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+981488615                | 524d525c5d565d4456
+3077464616               | 5845545f51585f43525e
+3657309285               | 5843565f565e52475b5d
+3176138816               | 5844545e545d534d525e
