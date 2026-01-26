@@ -1,0 +1,20 @@
+python ./crc.py 26-01-27-paypal.txt                                    ─╯
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+myMein paypal                            | 13    | 0xfa12c31e
+@alexkerntrace                           | 14    | 0x526f6f40
+trazytrace@googlemail                    | 21    | 0xd4df0c9f
+com                                      | 3     | 0x64b6c6e6
+AlexanderKern@web                        | 17    | 0x827e4b2f
+de                                       | 2     | 0x7d90298b
+ifWenn MoneyGeld BetterBesser SmallKl..  | 68    | 0xc59a1839
+./batch_xor.py  4195533598,1383034688,3571387551,1689700070,2189314863,2106599819,3315210297  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+4195533598               | 5f445a5d505d58405a50
+1383034688               | 5a465b5b555d5f435b50
+3571387551               | 5840545956565c405659
+1689700070               | 5a435b51525e5b455458
+2189314863               | 59445b51565f5f4d555b
+2106599819               | 5944535e5057524d5251
+3315210297               | 5846525d575f5b475a5f
