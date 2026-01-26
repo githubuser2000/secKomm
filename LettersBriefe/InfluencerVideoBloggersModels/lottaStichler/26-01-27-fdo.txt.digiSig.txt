@@ -14,3 +14,20 @@ Original Hash            | XOR-Ergebnis (Hex)
 1912103547               | 5a4c525a545e5840575f
 2202765610               | 5947535a52585e435258
 1547284829               | 5a40575f57565f4d5151
+
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+Von anderen Frauen oder Mädchem brauc..  | 80    | 0x6d07cf32
+alten Frauen                             | 12    | 0x48553b55
+hässlichen                               | 10    | 0x62cc37c3
+fetten Mädchen                           | 14    | 0xf2b192a6
+toxisch verbitterte fehlverhaltende O..  | 51    | 0x49edc8b5
+Als erstes brauche ich diesen Schutz ..  | 60    | 0xd0942deb
+What I primarily need from other wome..  | 80    | 0x4c305cff
+etrated by old women                     | 20    | 0x564b60d8
+ugly                                     | 4     | 0xd0acbf24
+fat girls                                | 9     | 0xf0b7166c
+toxic                                    | 5     | 0x93538fa3
+bitter                                   | 6     | 0x71f8627b
+and misbehaving grandmothers             | 28    | 0x834b892a
+I've needed this protection my entire..  | 42    | 0x5c39b15d
