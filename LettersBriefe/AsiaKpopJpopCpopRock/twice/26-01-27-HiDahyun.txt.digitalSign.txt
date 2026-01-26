@@ -1,0 +1,15 @@
+python ../../crc.py 26-01-27-HiDahyun.txt                              ─╯ Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+ItEs IsIst MoreMehr AnEine AddictionS..  | 80    | 0x134a1a6
+lichen toZu ordinaryNormaler LoveLieb..  | 38    | 0x7816921e
+WhatWas MeansBedeutet I Ich DoTue Not..  | 80    | 0x113ff2c7
+ig ButAber I Ich CanKann NotNicht Res..  | 51    | 0x4ba2c78e
+DamnVerdammt                             | 12    | 0x4d635a70
+./batch_xor.py  20226470,2014745118,289403591,1268959118,1298356848  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+20226470                 | 5945515a535a5c45
+2014745118               | 5945525c525a5e445250
+289403591                | 594d5a5c555d5e4c52
+1268959118               | 5a4755505c5b52445250
+1298356848               | 5a475a50565b5d4d5750
