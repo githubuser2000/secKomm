@@ -1,0 +1,35 @@
+../crc.py 26-01-28-ToZu-P-GodsGoetter.txt                              ─╯ Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+* HexadecadegramHexadegramm16XVI16P16..  | 80    | 0x3e4841d2
+sionsDimensionen 🔮                       | 18    | 0x717d4f03
+| ActorsSchauspieler   | RoleRolle   ..  | 54    | 0xd8b09606
+|----------------------+-------------..  | 53    | 0xd40cfba1
+| Dan Aykroyd 😎        | Dr              | 27    | 0xdef83af0
+Raymond Stantz 🕵️‍♂️     |               | 26    | 0x73fd3379
+| Harold Ramis 🤓       | Dr              | 27    | 0xbec2b2de
+Egon Spengler ⚗️        |                | 25    | 0xc2c8445f
+| Ernie Hudson 👊       | Winston Zedd..  | 54    | 0x991e5bd8
+| Bill Murray 😂        | Dr              | 27    | 0x5370368f
+Peter Venkman 🧙‍♂️      |                | 25    | 0x748a38c4
+* ConsiderBetrachtet 🤔:                  | 23    | 0x20b9b5aa
+Carl Jung 🌀 AndUnd Arthur Schopenhaue..  | 40    | 0xa1267aff
+MakeBildet OpinionsMeinungen 🖋️          | 31    | 0xba116826
+AffectsBetrifft HumanMenschliche Spec..  | 72    | 0x8ff01354
+./batch_xor.py  1044922834,1904037635,3635451398,3557620641,3740809968,1945973625,3200430814,3267904607,2568903640,1399862927,1955215556,549041578,2703653631,3121702950,2414875476  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1044922834               | 5a45575c5c5c594d505c
+1904037635               | 5a4c535c555d5c43505d
+3635451398               | 5843505d515b5a465a50
+3557620641               | 5840565f535c5b435759
+3740809968               | 584257585d5e524c5550
+1945973625               | 5a4c575d5c595843515d
+3200430814               | 58475358515d5b4d525c
+3267904607               | 5847555f5c5e5f43535f
+2568903640               | 594055505c5e58435758
+1399862927               | 5a465a515d58594c515f
+1955215556               | 5a4c565d575f5e40565e
+549041578                | 5e415a58515f5e425b
+2703653631               | 5942535b535b58435059
+3121702950               | 58445159525e594c5658
+2414875476               | 5941525c5d595e41545e
