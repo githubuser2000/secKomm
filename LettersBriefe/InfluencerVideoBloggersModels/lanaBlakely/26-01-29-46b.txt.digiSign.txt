@@ -1,0 +1,18 @@
+../../crc.py 26-01-29-46b.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+TryVersuche ToZu RememberErinnern Rea..  | 64    | 0xb4cb86fb
+Details AreSind AlsoAuch ImportantWic..  | 41    | 0x4f72bd78
+I_Ich_AmBinExperiencedErfahrenWithVon..  | 71    | 0x7b8ac8c7
+SomeManche ReallyWirklich HateHassen ..  | 76    | 0xf6eb9cbb
+LoveLiebesMarriageHeiratForFürOrdinar..  | 80    | 0x81d30661
+rumTheySieHateHassenMeMichAllAlle        | 33    | 0x782ee73d
+./batch_xor.py  3033237243,1332919672,2072692935,4142636219,2178090593,2016339773  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3033237243               | 5845505b575d5c47575b
+1332919672               | 5a46505a5c5f5243545a
+2072692935               | 5945545a5357594c505d
+4142636219               | 5f44575a535d5d475251
+2178090593               | 5944545055575b405a5b
+2016339773               | 5945525e565d5242545b
