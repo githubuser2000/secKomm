@@ -1,0 +1,14 @@
+../../crc.py 26-01-29-president.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+HornoredGeehrte Ministerpresident Mel..  | 40    | 0xf6b645bc
+WhichWelchen InfluenceEinfluss OntoAu..  | 80    | 0x47b05c93
+t I Ich HaveHaben                        | 17    | 0xc45f137f
+MyMein InfluenceEinfluss OntoAuf Worl..  | 76    | 0x10686784
+./batch_xor.py  4139140540,1202740371,3294565247,275277700  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+4139140540               | 5f445051545a5b405758
+1202740371               | 5a47535a525a5b465459
+3294565247               | 58475a5c50585e47575f
+275277700                | 5942565a52595c4553
