@@ -1,0 +1,7 @@
+../../crc.py 26-01-29-46.tx
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)              -----------------------------------------------------------------
+TellWende ToDich TheAn OrganizationOr..  | 77    | 0xdca75f45
+./batch_xor.py  3701956421  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3701956421               | 584253595c5b5d415159
