@@ -1,0 +1,20 @@
+../../crc.py 26-01-29-mistakes.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+MistakesFehlerOfVonMyMeinemLifeLeben_..  | 80    | 0x69d7f8a4
+enGewähltEnemiesFeindeNotNichtTrialVe..  | 80    | 0x40c59830
+WarBigGroßerDiplomaticDiplomatischerM..  | 49    | 0x131ee367
+MistakesFehlerOfVonMyMeinemLifeLeben_..  | 80    | 0xa38e556d
+alSexuellFuckedGeficktForZumSurvivalÜ..  | 80    | 0x503c40d4
+itätButAberNumbTaubUnwillingUngewollt..  | 80    | 0xed077eb5
+chteteSecretlyHeimlichPeopleVolk         | 32    | 0xa064c97c
+./batch_xor.py  1775761572,1086691376,320791399,2744014189,1346126036,3976691381,2690959740  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1775761572               | 5a42545d52585a40545a
+1086691376               | 5a455b5e53575a46545e
+320791399                | 5847535f5c5f584c5a
+2744014189               | 5942575c555f5f445b51
+1346126036               | 5a46575e545c5d45505e
+3976691381               | 584c545e53575a465b59
+2690959740               | 59435a585c5b52425758
