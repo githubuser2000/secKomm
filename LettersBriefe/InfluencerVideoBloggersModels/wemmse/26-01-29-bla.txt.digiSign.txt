@@ -1,0 +1,12 @@
+../../crc.py 26-01-29-bla.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+Mit Chlor Phosphor Stickstoff Natrium..  | 80    | 0x7495adce
+erbindungen kann man wahrscheinlich w..  | 53    | 0xbb79b31e
+Kupfer vielleicht auch                   | 22    | 0x149946f3
+./batch_xor.py  1955966414,3145315102,345589491  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1955966414               | 5a4c565d5c585d41525c
+3145315102               | 5844575d565f5e44535a
+345589491                | 5841565d5d575f4c52
