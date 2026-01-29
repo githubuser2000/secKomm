@@ -1,0 +1,12 @@
+../../crc.py 26-01-30-freedomOfSpeech.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+InNachMyMeinerOpinionMeinung Forbidde..  | 80    | 0xfcc9faa9
+hRede IsIst JustBloß AnEine Invitatio..  | 80    | 0x5cb3424c
+äften MurderingMordKillingTöten          | 31    | 0xe1ae53f9
+./batch_xor.py  4241095337,1555251788,3786298361  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+4241095337               | 5f47575955575e46505f
+1555251788               | 5a40565d575b5a425b50
+3786298361               | 58425b5e575753465559
