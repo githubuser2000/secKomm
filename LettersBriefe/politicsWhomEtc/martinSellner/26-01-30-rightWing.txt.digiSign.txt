@@ -1,0 +1,16 @@
+../../crc.py 26-01-30-rightWing.txt  
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I_Ich_AmBinInsteadAnstelleOfVon Natio..  | 80    | 0xe4499707
+tenRightRechtsWingPolitisch ForFür Ma..  | 80    | 0x9e31229b
+en ForFür DownUnten InsteadAnstelle F..  | 80    | 0x170a10a
+Und_I_Ich_AmBin ForFür WorldWeltHiera..  | 80    | 0x2e2d045a
+EveryoneJeder                            | 13    | 0x9601eaee
+./batch_xor.py  3830028039,2654020251,24158474,774702170,2516708078  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3830028039               | 584d5058555c53455051
+2654020251               | 5943565c555c5b475659
+24158474                 | 5941525d5d5a5c41
+774702170                | 5c42575f555c5a4253
+2516708078               | 5940525e525e53455450
