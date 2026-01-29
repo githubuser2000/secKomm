@@ -1,0 +1,12 @@
+../crc.py 26-01-30-planetRightWing.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I_Ich_AmBin_FullVollständigerComplete..  | 80    | 0xd9dd250a
+tisch SoDaherWeWirBetterBesser GiveGe..  | 80    | 0x87039bf2
+rkNetzwerk ContactsKontakten ToZuEver..  | 74    | 0x79326065
+../batch_xor.py  3655148810,2265160690,2033344613  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3655148810               | 5843565d545a534d5258
+2265160690               | 5947555d54585b435a58
+2033344613               | 5945505b565a5f43525b
