@@ -1,0 +1,16 @@
+../../crc.py 26-01-30-video.txt 
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I_Ich_NeedBraucheYourDein_Video_ThatD..  | 80    | 0x1a185601
+bTheDerEuEuByDurchTheDieEuEu             | 28    | 0x4384c19d
+WeWirShouldSolltenFindFinden ReasonsG..  | 42    | 0xcf394879
+SecrecyGeheimhaltung CouldKönnte BeSe..  | 80    | 0x135cd92a
+ ShouldSollten MaybeVielleicht KeepLa..  | 56    | 0x535a9db2
+./batch_xor.py  437802497,1132773789,3476637817,324852010,1398447538  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+437802497                | 5f465450555c5f4c54
+1132773789               | 5a44505a525958425b51
+3476637817               | 5841545e535d5c4d525f
+324852010                | 58475750505c5b4453
+1398447538               | 5a465a50515a5c405050
