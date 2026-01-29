@@ -1,0 +1,24 @@
+./crc.py 26-01-30-fightKampf.txt  
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+HackHackt Tiktok FromVon InsideInnerh..  | 80    | 0x86c0bd10
+hangeÄndert AlgorithmAlgorithmus Stea..  | 80    | 0x75bca4e2
+iktok ReNeueInstanceInstanz RobberyRa..  | 79    | 0x320b681a
+DestroyZerstört Linkedin SocialSozial..  | 80    | 0x9caee86f
+ PeopleVolk ParliamentsParlamente Rem..  | 71    | 0xbec4cddf
+AsAlsAnEinInventorErfinderScientistWi..  | 80    | 0x3fa60158
+tigtAgainstGegenHugestGrößteCountries..  | 80    | 0x3602cdfb
+ageGebrauchNuclearAtomWeaponsWaffenSe..  | 80    | 0x79651efa
+ctionVernichtungNeededBenötigt           | 30    | 0x42a77750
+./batch_xor.py  2260778256,1975297250,839608346,2628708463,3200568799,1067843928,906153467,2036670202,1118271312  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+2260778256               | 5947555852595347565e
+1975297250               | 5a4c545d57575c475658
+839608346                | 53465a5e5556584155
+2628708463               | 59435150525e5341555b
+3200568799               | 58475358505853425a51
+1067843928               | 5a45555f5d5a584c5150
+906153467                | 52455559505d5f4354
+2036670202               | 5945505e53595b47535a
+1118271312               | 5a44525057595a46525a
