@@ -1,0 +1,11 @@
+../../crc.py 26-01-30-benEphraim.txt  
+-----------------------------------------------------------------
+Messias Ben Ephraim Peter Krzyzanowsk..  | 80    | 0x64abbd9b
+nder ReligionsReligionen UniversityUn..  | 80    | 0x2873a386
+ebe KnowledgeWissen MoneyGeldEconomyW..  | 46    | 0x7a77d220
+../../batch_xor.py  1688976795,678667142,2054672928  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1688976795               | 5a435b505c595d425a5d
+678667142                | 5d425b5e53595a4151
+2054672928               | 5945565c5359594c5150
