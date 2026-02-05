@@ -1,0 +1,15 @@
+../../crc.py 26-02-06-youngerLiveForever.txt                           ─╯ Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+Can we both work together to become y..  | 80    | 0xe3274b8e
+ should be possible                      | 19    | 0x1eb42956
+song A-ha forever young                  | 23    | 0x3eecbf62
+not AH but AI continuum                  | 23    | 0xe646bbd2
+not 34 but 35 is about becoming young..  | 71    | 0x900f58cb
+./batch_xor.py  3811003278,515123542,1055702882,3863395282,2416924875  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3811003278               | 584d5259555e58475450
+515123542                | 5e445659575d5e4151
+1055702882               | 5a45565d525e594d5b5a
+3863395282               | 584d555b56575e475b5a
+2416924875               | 5941525e5c5c5f4d545d
