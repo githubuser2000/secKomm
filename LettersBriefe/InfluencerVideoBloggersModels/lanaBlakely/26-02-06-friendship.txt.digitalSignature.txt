@@ -1,0 +1,17 @@
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+First of all I want friendship and se..  | 80    | 0x479b1303
+e always next to you fourth I want cu..  | 80    | 0x17f62a53
+eneral but it is what women want firs..  | 38    | 0x53e4f20
+And I want your help I need your help..  | 48    | 0x6a31576f
+Please help me to get a job as a supe..  | 80    | 0x6e9cf625
+ternational help against internationa..  | 50    | 0xd68a01b8
+./batch_xor.py  1201345283,402008659,87969568,1781618543,1855780389,3599368632  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1201345283               | 5a475359565a5e475b5b
+402008659                | 5f45515855565d405a
+87969568                 | 53425a5e5c5b5d4d
+1781618543               | 5a425b59535f5340575b
+1855780389               | 5a4d565d52565b465b51
+3599368632               | 58405a5156585343505a
