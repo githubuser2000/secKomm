@@ -1,0 +1,36 @@
+../../crc.py 26-02-09-problems.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)                    -----------------------------------------------------------------
+CanKannSomeoneJemandTellSagenMeMirWhe..  | 80    | 0xa3c0011a                     nyVielenYearsJahrenOfVonMyMeinenHomeZ..  | 54    | 0x2fe0378b
+HelpHilfeYearsJahreMailPostDeliveryZu..  | 80    | 0x2d6f53af
+edGestörteMailPostDeliveryZustellungY..  | 55    | 0xb9eed6d3
+PrisonGefängnisHospitalsKrankenhäuser..  | 80    | 0x4ba66887
+eMedicationMedikationAndUndDeclareErk..  | 80    | 0xf7827285
+hrIllKrankAsAlsTheySieActuallyEigentl..  | 80    | 0xdbebd2c9
+dGeheiltForFürThemSie                    | 21    | 0xb7ba499f
+MyMeinDoctorArztSaysSagt_I_Ich_WereWä..  | 80    | 0x79eae28d
+OwnEigenenWorldWeltHadHätte_A_Eine_Th..  | 80    | 0x4ded58fc
+dBraucheMuchVielMedicationMedizinThat..  | 80    | 0x2ebfdd3f
+tAber_I_Ich_AmBinHealthyGesund           | 30    | 0xe84bce8d
+InterconnectionVerbindung_JeffreyEpst..  | 80    | 0x5fdf1c2c
+esShallSollBeSeinAnEineDistractionAbl..  | 80    | 0xd06c4946
+erClassesSchichtenAndUndElitesElitenP..  | 80    | 0x6aa4bfaa
+en                                       | 2     | 0xf359c142
+./batch_xor.py  2747269402,803223435,762270639,3119437523,1269196935,4152521349,3689665225,3082439071,2045436557,1307400444,784325951,3897282189,1608457260,3496757574,1789181866,4082745666  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+2747269402               | 5942575f57585241535a
+803223435                | 5345505a575d5f4656
+762270639                | 5c43515a525e5d465a
+3119437523               | 58445251515d5c40515b
+1269196935               | 5a47555154575d4c505d
+4152521349               | 5f44565a505c5a465751
+3689665225               | 58435b5153585e47515d
+3082439071               | 58455b5a515d52455459
+2045436557               | 5945575d515d5d40565f
+1307400444               | 5a46535f515e5b41575c
+784325951                | 5c4d575b575b524052
+3897282189               | 584d5a5f575659445b51
+1608457260               | 5a435350515b5c475558
+3496757574               | 58415a5e525b5c40545c
+1789181866               | 5a425b5154565a4d555e
+4082745666               | 5f455b5a525a5e43555e
