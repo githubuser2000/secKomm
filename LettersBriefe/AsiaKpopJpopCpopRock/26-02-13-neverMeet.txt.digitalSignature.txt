@@ -1,0 +1,8 @@
+../crc.py 26-02-13-neverMeet.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+WillWerden WeWir NeverNiemals MeetTre..  | 66    | 0x6eb03624
+./batch_xor.py  1857041956  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1857041956               | 5a4d565f555a5a4c565e
