@@ -1,0 +1,16 @@
+../crc.py 26-02-12-informed.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+DoTut YouIhr GetErhalten InformedInfo..  | 80    | 0x70a46bfa
+licRu git                                | 9     | 0x572d5ae5
+sr                                       | 2     | 0xfbc028da
+ht ProjectsProjekte                      | 19    | 0xa96bc03d
+ThatDas IsIst ReallyWirklich GoodGute..  | 48    | 0x22a5748d
+./batch_xor.py  1889823738,1462590181,4223674586,2842411069,581268621  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1889823738               | 5a4d5b515d5c58425050
+1462590181               | 5a41555a50575b445b59
+4223674586               | 5f47515b53595f405b5e
+2842411069               | 594d575a515f5a455551
+581268621                | 5e4d525a53565d4752
