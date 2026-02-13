@@ -1,0 +1,9 @@
+../../crc.py 26-02-14-prince.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I Ich ThinkDenke YouDu BecomesWirst A..  | 53    | 0x2055b5bd
+./batch_xor.py  542487997  password
+❯ ../../batch_xor.py  542487997 kuchen                                   ─╯
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+542487997                | 5e41515c5d59524c54
