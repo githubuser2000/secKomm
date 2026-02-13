@@ -1,0 +1,18 @@
+../../crc.py 26-02-14-invest2.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I Ich AmTue FightingBekämpfen TheDie ..  | 80    | 0x516fdc9f
+ndUnd ForDa ThatFür I Ich NeedBrauche..  | 80    | 0xc1a70739
+orSpender InvestorsInvestoren            | 29    | 0xe08aef7b
+PleaseBitte GiveGebt MeMir               | 26    | 0xa7747af3
+Paypal alexanderkern@web                 | 24    | 0xb8e609a
+de  trazytrace@googlemail                | 25    | 0x36f939a9
+com                                      | 3     | 0x64b6c6e6
+./batch_xor.py  1366285471,3248949049,3767201659,2809428723,193880218,922302889,1689700070  password
+1366285471               | 5a46555e57565e415459
+3248949049               | 584757505c5a52455751
+3767201659               | 5842555f575e5a435651
+2809428723               | 594d5351515c5342515b
+193880218                | 5a4c50505d5e59445b
+922302889                | 5247515b555c534d5a
+1689700070               | 5a435b51525e5b455458
