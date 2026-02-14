@@ -1,0 +1,19 @@
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+ToZu MarryHeiraten IntoIn A Eine Mona..  | 80    | 0xa84edbe8
+TrustworthyVertrauenswürdig RationalV..  | 46    | 0x7055c8a6
+PromisesVerspricht A Eine BetterBesse..  | 80    | 0x18b34fad
+tySicherheit                             | 12    | 0x15da2156
+AndUnd PrincessPrinzessin Leonor IsIs..  | 80    | 0xecdb3bdc
+bsch ThatDass ItEs ScaresBeängstigt M..  | 66    | 0x215d7e3a
+SuchSolche ThingsDinge MakeMachen MeM..  | 51    | 0x5141c574
+./batch_xor.py  2823740392,1884670118,414404525,366616918,3973790684,559775290,1363264884  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+2823740392               | 594d515b525a5b465a5a
+1884670118               | 5a4d5b5c53595b445250
+414404525                | 5f44575c555a5e4756
+366616918                | 5843555e545852445b
+3973790684               | 584c545b52575b435b5c
+559775290                | 5e405a5f525b594c53
+1363264884               | 5a46555b57585f4d5b5c
