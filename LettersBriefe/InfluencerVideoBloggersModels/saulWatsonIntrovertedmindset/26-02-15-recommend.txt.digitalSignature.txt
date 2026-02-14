@@ -1,0 +1,18 @@
+ ../../crc.py 26-02-15-recommend.txt   
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+For a prince I recommend                 | 24    | 0x339f683
+books as plato the state                 | 24    | 0xd3c80076
+niccolo machiavelli the prince           | 30    | 0xfb92c363
+sun zu the art of war                    | 21    | 0x6572e49d
+computer games as civilization or ste..  | 43    | 0x1d641bf7
+I do not certainly know if I become t..  | 54    | 0x951799a4
+./batch_xor.py  54130307,3553099894,4220699491,1702028445,493100023,2501351844  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+54130307                 | 5e41525b555d5b42
+3553099894               | 5840565b5557524d5a5c
+4220699491               | 5f475158535752415a59
+1702028445               | 5a42535a555c5341575d
+493100023                | 5f4c5059555e5b4750
+2501351844               | 59405359565b5a4d575c
