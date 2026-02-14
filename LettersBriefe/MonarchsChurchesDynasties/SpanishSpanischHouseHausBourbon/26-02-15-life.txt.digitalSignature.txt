@@ -1,0 +1,14 @@
+../../crc.py 26-02-15-life.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+CanKann I Ich LiveLeben InIn YourEure..  | 70    | 0xf963831
+I Ich HaveMuss ToZu LeaveVerlassen My..  | 53    | 0x772246d7
+I Ich DoTue NotNicht ThinkingDenken I..  | 71    | 0x33c5b656
+ButAber AsSo NowJetzt ThereDa IsIst T..  | 52    | 0xbcaaa0fc
+./batch_xor.py  261503025,1998735063,868595286,3165298940  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+261503025                | 5943525d555d5b4756
+1998735063               | 5a4c5a50525d5e45555b
+868595286                | 53435b5d5c5b594d55
+3165298940               | 5844555d5757534c5758
