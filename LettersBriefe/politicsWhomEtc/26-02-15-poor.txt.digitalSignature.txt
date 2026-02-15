@@ -1,0 +1,23 @@
+../crc.py 26-02-15-poor.txt 
+
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+PleaseBitte GiveGebt MeMir KnowledgeW..  | 80    | 0x23435fec
+ HomelessObdachloser DegradedDegradie..  | 80    | 0xa2589e99
+leben SleepSchlafen WhenWenn ItEs IsI..  | 80    | 0x19b986c0
+ause                                     | 4     | 0xc92e5a23
+PrisonGefängnis HospitalKrankenhaus S..  | 80    | 0x8764bbc0
+ntoIn HomelessnessObdachlosigkeit I_I..  | 80    | 0x438ff103
+sMächte EnforceErzwingen Collectively..  | 80    | 0x10d177de
+UnemployedArbeitslos                     | 20    | 0xd7694ca3
+./batch_xor.py  591618028,2723716761,431589056,3375258147,2271525824,1133506819,282163166,3614002339  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+591618028                | 5e4c525e54565b475b
+2723716761               | 5942515b525f5d425559
+431589056                | 5f46525d5d575b4055
+3375258147               | 5846545d575b5344575f
+2271525824               | 59475459505c5e4d515c
+1133506819               | 5a44505b505e5d4d5251
+282163166                | 594d5159535d5a4355
+3614002339               | 5843525c555e59465051
