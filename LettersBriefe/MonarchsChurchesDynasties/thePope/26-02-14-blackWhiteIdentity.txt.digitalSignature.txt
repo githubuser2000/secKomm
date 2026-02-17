@@ -1,0 +1,14 @@
+../../crc.py 26-02-14-blackWhiteIdentity.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+BlackSchwarzeIdentityIdentitätIsIstAb..  | 80    | 0xbb1bbafa
+rityÜberlegenheitAndUndLifeLebensEner..  | 71    | 0x681440ba
+WhiteWeißeIdentityIdentitätIsIstAbout..  | 80    | 0xd37fbc7f
+timierungMeaningBedeutung                | 25    | 0x6dee2a44
+./batch_xor.py  3139156730,1746157754,3548363903,1844324932  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3139156730               | 58445051545b5d425058
+1746157754               | 5a42575e545b5c42565c
+3548363903               | 584057505658584c535b
+1844324932               | 5a4d575c565c5f4c505a
