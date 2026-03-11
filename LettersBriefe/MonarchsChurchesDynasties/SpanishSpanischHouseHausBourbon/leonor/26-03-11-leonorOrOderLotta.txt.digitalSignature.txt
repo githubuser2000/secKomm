@@ -1,0 +1,14 @@
+../../crc.py 26-03-11-leonorOrOderLotta.txt 
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I Ich WouldWürde EitherEntweder Marry..  | 80    | 0x7e9a86a7
+zessin Leonor FromAus SpainSpanien       | 34    | 0xe69dbd0e
+Leonor OffersBietet MeMir SafetySiche..  | 80    | 0x350bc7a8
+heit ExtremlyExtrem                      | 19    | 0xe4fa2296
+./batch_xor.py  2124056231,3869097230,889964456,3841598102  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+2124056231               | 5944515c555b5d475059
+3869097230               | 584d555155575c475058
+889964456                | 534d5a51535a5f4055
+3841598102               | 584d575950575344535a
