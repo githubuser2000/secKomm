@@ -1,0 +1,10 @@
+../../crc.py 26-03-14-meetingTreffen.txt 
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+CanKönnen WeWir MakeMachen A Ein Meet..  | 80    | 0xeb2c209f
+Und MeMir                                | 9     | 0xbd158a7a
+./batch_xor.py  3945537695,3172305530  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+3945537695               | 584c575d505d5c435a5d
+3172305530               | 5844545a565e5e405058
