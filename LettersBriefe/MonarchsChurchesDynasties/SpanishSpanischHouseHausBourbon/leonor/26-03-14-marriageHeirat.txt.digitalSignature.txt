@@ -1,0 +1,26 @@
+../../crc.py 26-03-14-marriageHeirat.txt
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+ActuallyEigentlich DoTue I Ich WantMö..  | 80    | 0x46253ef3
+o SoonSchnell AsWie PossibleMöglich A..  | 80    | 0x7a8f9eed
+chnell AsWie PossibleMöglich ButAber ..  | 80    | 0x24bdf7fa
+mt OfDavon ThatDass I Ich HaveHabe Ch..  | 80    | 0x142620db
+r AndUnd I Ich CanKann NotNicht Speak..  | 61    | 0xaa723d25
+SheSie SaidSagte I Ich ShallSoll GoGe..  | 80    | 0xd09ebe69
+ Ein GiftGeschenk FromVon HerIhr         | 32    | 0xfb735b8c
+NowJetzt I Ich AmBin ImprisonedEinges..  | 80    | 0x7f5aa6f5
+dUnd DoTue NotNicht HaveHaben TheDas ..  | 80    | 0xd05bc254
+nien                                     | 4     | 0xf3b7c3e
+./batch_xor.py  1176846067,2056232685,616429562,338043099,2859613477,3500064361,4218641292,2136647413,3495674452,255556670  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+1176846067               | 5a44545e5d5a5d45555f
+2056232685               | 5945565e575d59435b5d
+616429562                | 5d44555c57575e4351
+338043099                | 58465b58515d5b4c5a
+2859613477               | 594d5651535f5841545f
+3500064361               | 5840535855585f465559
+4218641292               | 5f475250535a5a475a5a
+2136647413               | 5944505e535a5c41525b
+3495674452               | 58415a5d53595f41565a
+255556670                | 5940565d50585d4253
