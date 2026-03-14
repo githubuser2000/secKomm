@@ -1,0 +1,10 @@
+../../crc.py 26-03-15-marriageHeirat2.txt                              ─╯
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+WithMit PrincessPrinzessin Leonor I I..  | 80    | 0x822f6d89
+achen A Ein ChildKind AsSo SoonSchnel..  | 60    | 0xa7bbec23
+./batch_xor.py  2184146313,2814110755  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+2184146313               | 59445b5c545a5d46525b
+2814110755               | 594d525c545f5b42565d
