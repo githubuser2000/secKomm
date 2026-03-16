@@ -1,0 +1,16 @@
+../../crc.py 26-03-15-marriageHeirat3.txt                              ─╯
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+TheDie LoveLiebe ToZu Lotta Stichler ..  | 80    | 0x684f276
+YearsJahre AboutHerum                    | 21    | 0x392a1c7
+SoAlso AlreadyBereits PainfullySchmer..  | 51    | 0x43540a04
+I Ich CanKann LoveLieben MoreMehr Tha..  | 59    | 0x82c50b2
+DoTun WeWir NeedBrauchen A Einen Seco..  | 54    | 0xf5eb0308
+./batch_xor.py  109376118,59941319,1129581060,137121970,4125819656  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+109376118                | 5a455a5b52585a445b
+59941319                 | 5e4c5a5c545d5a4c
+1129581060               | 5a44515150565a455558
+137121970                | 5a465459575f524253
+4125819656               | 5f44515d5d5f5243565e

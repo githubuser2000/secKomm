@@ -1,0 +1,28 @@
+../../crc.py 26-03-15-marriageHeirat4.txt  
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+I Ich WantMöchte A Eine MarriageHeira..  | 79    | 0xf03f928b
+I Ich WasWar TenZehn TwelveZwölf Year..  | 55    | 0x8e4dcc25
+I Ich CouldKonnte NotNicht ExpectErwa..  | 80    | 0xa3cfa9d9
+siveBeeindruckenden WomenFrauen ShowZ..  | 60    | 0xd9789e64
+I Ich LoveLiebe Lotta Stichler ForSei..  | 67    | 0x49c2a15a
+ButAber I Ich NeedBrauche A Eine Woma..  | 64    | 0x8f9b737f
+ThatWelche DoesTut NotNicht LeaveVerl..  | 80    | 0x8885bfca
+it OfDer TimePeriode                     | 20    | 0x7e594f8e
+ThisDas HurtsTut-weh AlwaysImmer         | 32    | 0xdf2b6c63
+EspeciallyBesonders IfWenn I Ich Have..  | 80    | 0x58aaa8b
+arum ItEs IsIst OverVorbei               | 26    | 0xef24af53
+./batch_xor.py  4030698123,2387463205,2748295641,3648560740,1237492058,2409329535,2290466762,2119782286,3744164963,92973707,4012158803  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+4030698123               | 5f45505853575344515b
+2387463205               | 59465b5f51585847535d
+2748295641               | 5942575057575e435759
+3648560740               | 5843575050585b425758
+1237492058               | 5a47505f515759455650
+2409329535               | 59415351565c5240505d
+2290466762               | 59475a5851585d42555a
+2119782286               | 59445251525659475b5e
+3744164963               | 5842575c54585f4c555b
+92973707                 | 52475a5f56595b42
+4012158803               | 5f45525a545b534d535b
