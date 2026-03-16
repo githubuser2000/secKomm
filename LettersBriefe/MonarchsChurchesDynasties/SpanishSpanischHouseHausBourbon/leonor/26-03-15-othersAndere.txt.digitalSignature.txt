@@ -1,0 +1,14 @@
+../../../crc.py 26-03-15-othersAndere.txt                              ─╯
+Teilstring (Auszug)                      | Länge | CRC32 (Hex)
+-----------------------------------------------------------------
+HappynessGlücks DetectiveDetektiv Kat..  | 43    | 0x84490040
+Kpop Itzy                                | 9     | 0xe86e89f2
+Kpop Twice                               | 10    | 0x98099ccc
+Lana Blakely AndUnd MoreMehr HaveHabe..  | 67    | 0xba0a360
+./batch_xor.py  2219376704,3899558386,2550766796,195076960  password
+Original Hash            | XOR-Ergebnis (Hex)
+---------------------------------------------
+2219376704               | 5947525156595d42535c
+3899558386               | 584d5a51505b53465b5e
+2550766796               | 5940565852585d425a5e
+195076960                | 5a4c56585258524353
